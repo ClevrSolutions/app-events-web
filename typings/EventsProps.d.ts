@@ -11,11 +11,15 @@ export interface EventsContainerProps {
     class: string;
     style?: CSSProperties;
     tabIndex?: number;
-    onDestroyAction?: ActionValue;
+    // onDestroyAction?: ActionValue;
+    // onUnloadAction?: ActionValue;
+    // onLoadAction?: ActionValue;
 }
 
 export interface EventsPreviewProps {
     class: string;
     style: string;
-    onDestroyAction: {} | null;
+    // onDestroyAction: {} | null;
+    // onUnloadAction?: {} | null;
+    // onLoadAction?: {} | null;
 }

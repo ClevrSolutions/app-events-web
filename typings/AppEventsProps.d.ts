@@ -12,10 +12,12 @@ export interface AppEventsContainerProps {
     style?: CSSProperties;
     tabIndex?: number;
     onUnloadAction?: ActionValue;
+    onLoadAction?: ActionValue;
 }
 
 export interface AppEventsPreviewProps {
     class: string;
     style: string;
     onUnloadAction: {} | null;
+    onLoadAction: {} | null;
 }
